@@ -1,10 +1,10 @@
 # Fraud Transaction Analysis Dashboard
 
-## 📌 Project Overview
+## 📌 Overview
 
-The Fraud Transaction Analysis Dashboard is a data analysis project developed using Python and Power BI to analyze financial transaction data and identify suspicious transaction patterns. The project focuses on data preprocessing, exploratory data analysis (EDA), and interactive dashboard visualization for fraud monitoring.
+This project focuses on analyzing financial transaction data to identify suspicious transaction patterns and fraud-related activities using Python and Power BI. The project includes data preprocessing, exploratory data analysis (EDA), suspicious transaction detection, and interactive dashboard visualization.
 
-This project helps in understanding transaction behavior, detecting unusual activities, and visualizing fraud-related insights through an interactive Power BI dashboard.
+The main objective of this project is to understand transaction behavior and visualize fraud insights through an interactive Power BI dashboard.
 
 ---
 
@@ -31,8 +31,8 @@ This project helps in understanding transaction behavior, detecting unusual acti
 * Power BI
 * Jupyter Notebook
 
----
 
+---
 
 # 📊 Dashboard Insights
 
@@ -49,14 +49,26 @@ The dashboard includes:
 
 ---
 
-# 📈 Data Analysis Workflow
+# 📈 What I Learned
 
-1. Loaded and explored transaction dataset
-2. Performed data cleaning and preprocessing
-3. Checked missing values and dataset statistics
-4. Visualized fraud and normal transaction patterns
-5. Identified suspicious transactions using rule-based analysis
-6. Exported cleaned dataset for Power BI dashboard creation
+* Working with real-world financial transaction datasets
+* Data preprocessing and cleaning using Pandas
+* Exploratory Data Analysis (EDA)
+* Data visualization using Matplotlib and Seaborn
+* Identifying suspicious transaction patterns
+* Building interactive dashboards in Power BI
+* Creating KPI cards, charts, and analytical reports
+* Organizing projects for GitHub and portfolio presentation
+
+---
+
+# 📁 Dataset
+
+The dataset used in this project is the Credit Card Fraud Detection dataset available on Kaggle:
+
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+Due to the large file size, the original dataset is not uploaded to this repository.
 
 ---
 
@@ -64,19 +76,19 @@ The dashboard includes:
 
 ## 1. Clone Repository
 
-```bash
+```bash id="2k1p7i"
 git clone https://github.com/your-username/fraud-transaction-analysis.git
 ```
 
 ## 2. Install Required Libraries
 
-```bash
+```bash id="prlhqm"
 pip install -r requirements.txt
 ```
 
 ## 3. Open Jupyter Notebook
 
-```bash
+```bash id="8pyl7f"
 jupyter notebook
 ```
 
@@ -84,7 +96,7 @@ jupyter notebook
 
 Open:
 
-```bash
+```bash id="nhv3rb"
 notebooks/fraud_analysis.ipynb
 ```
 
@@ -96,8 +108,7 @@ notebooks/fraud_analysis.ipynb
 * Machine Learning-based Fraud Detection
 * Real-Time Fraud Monitoring
 * Automated Fraud Alerts
-* API Integration
-* Advanced Analytics Dashboard
+* Advanced Fraud Analytics
 
 ---
 
